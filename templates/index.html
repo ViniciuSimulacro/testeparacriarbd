@@ -8,14 +8,16 @@
     <title>Carros</title>
 </head>
 <body>
-    <thead class="indice">
-        <th>Marca</th>
-        <th>Modelo</th>
-        <th>Ano</th>
-        <th><a href="/add">adicionar</a></th>
-        
-        <p> </p>
-    </thead>
+    <div id="indice">
+        <thead>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Ano</th>
+            <th><a href="/add">adicionar</a></th>
+            
+            <p> </p>
+        </thead>
+    </div>    
     <tbody>
         {% for c in carros %}
         <tr>
